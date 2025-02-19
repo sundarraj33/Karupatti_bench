@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Main_image from "./Main_image";
+import About from "./About";
 
 const Navbar1 = () => {
 
@@ -31,7 +32,8 @@ const Navbar1 = () => {
           </div>
         </nav>
       </div>
-      <Main_image />
+      {/* <Main_image /> */}
+      {/* <About /> */}
     </>
   );
 };
