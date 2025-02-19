@@ -1,12 +1,14 @@
-import './index.css'
-import Navbar1 from './Pages/Navbar1'
+import About from './About'
+import './App.css'
+import Main_image from './Main_image'
+import Navbar1 from './Navbar1'
 
-function App() { 
-
+function App() {  
   return (
-    <>         
-      <Navbar1 />    
-        
+    <>   
+
+      <Navbar1 />
+      <About />      
     </>
   )
 }
