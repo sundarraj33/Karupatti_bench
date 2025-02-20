@@ -371,3 +371,56 @@ body{
         margin-top: 10%;
         padding: 10px;
      }
+
+
+
+     
+     .feedback_wrapper{
+        width : 70%;
+        margin : auto;
+        display : flex;
+        flex-direction : row;
+        /* background : yellow; */
+        
+    }
+    .feedback img{
+        height : 150px;
+        width : 150px;
+        border-radius : 50%;
+        margin : 10px;
+    }
+    .feedback p{
+        padding: 10px;
+        width: 70%;
+        text-align: center;
+    }
+    .feedback{
+        display : none;
+        flex-direction : column;
+        justify-content : center;
+        background : gray;
+        align-items : center;
+    }   
+    .active{
+        display : flex;
+        flex-direction : column;
+        animation : slide 2s;
+        
+    }
+    @keyframes slide{
+        0%{
+            opacity :0;
+        }100%{
+            opacity : 1;
+        }
+    }
+    .feedback_button{
+        width : 60px;
+        height : 50px;
+        border-radius : 50%;
+        align-self: center;
+        margin: 10px;
+    }
+    .feedback_button:hover{
+        cursor: pointer;
+    }
