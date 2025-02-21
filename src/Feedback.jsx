@@ -4,16 +4,27 @@ const Feedback = () => {
 
 
     const [count,setcount] = useState(0);
+    const [timeval,settimeval] = useState(0);
+    
+    function next(){ 
+        const result = (count > 2) ? -1  : count;   
+        setcount(()=> result+1);                                        
+    }
+
+    function pre(){
+        const result = (count < 1) ? 4 : count;   
+        setcount(()=> result-1);                             
+    }
+    
+    setInterval(function (){        
+        
+    },1000);
+       
 
     var elements = document.getElementsByClassName('feedback');
     for(var i=0;i<elements.length;i++){
         elements[i].classList.remove("active");
-        elements[count].classList.add("active")
-    }
-
-    function next(){        
-        setcount(()=> count+1);
-        console.log('dnfbds');
+        elements[count].classList.add("active");
     }
 
     return (
@@ -21,7 +32,7 @@ const Feedback = () => {
             <div className="container">
 
                 <div className="feedback_wrapper">
-                    <button className="feedback_button"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button className="feedback_button" onClick={pre}><i class="fa-solid fa-arrow-left"></i></button>
                     <div className="feedback_box">
                         <div className="feedback active">
                             <img src="https://www.hollywoodinsider.com/wp-content/uploads/2022/05/The-Hollywood-Insider-Captain-Jack-Sparrow-Johnny-Depp.png" />
