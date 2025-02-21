@@ -1,24 +1,21 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Feedback = () => {
 
 
     const [count,setcount] = useState(0);
-    const [timeval,settimeval] = useState(0);
+    const [timeval,settimeval] = useState(1);
     
     function next(){ 
         const result = (count > 2) ? -1  : count;   
-        setcount(()=> result+1);                                        
+        setcount(()=> result+1); 
+        settimeval(count);                                       
     }
 
     function pre(){
         const result = (count < 1) ? 4 : count;   
         setcount(()=> result-1);                             
-    }
-    
-    setInterval(function (){        
-        
-    },1000);
+    }   
        
 
     var elements = document.getElementsByClassName('feedback');
