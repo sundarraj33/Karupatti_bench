@@ -1,9 +1,6 @@
 /* ---------------------   Mobile and Rotate Device -------------------------------------- */
 
-@media(max-width:480px) and (max-width :767px){
-    body{
-        background : red;
-    }
+@media(max-width:480px) and (max-width :767px){    
     .contact_container{
         width: 100%;
         display: flex;
@@ -55,6 +52,9 @@
         outline: 0px;
         background-color: red;
         color: white
+    }
+    .contact_footer_image img{
+        width: 100%;
     }
 }
 
@@ -118,6 +118,9 @@
         background-color: red;
         color: white
     }
+    .contact_footer_image img{
+        width: 100%;
+    }
 }
 /* ---------------------   Taplat Media Query End   -------------------------------------- */
 
@@ -178,6 +181,9 @@
         background-color: red;
         color: white
     }
+    .contact_footer_image img{
+        width: 100%;
+    }
 }
 
 /* ---------------------   Laptop Query End -------------------------------------- */
@@ -237,6 +243,9 @@
         outline: 0px;
         background-color: red;
         color: white
+    }
+    .contact_footer_image img{
+        width: 100%;
     }
 }
 

@@ -1,8 +1,4 @@
-@media(max-width:480px){
-    body{
-        background : rgb(39, 186, 145);
-    }
-
+@media(max-width:480px){   
     .Animation_card_wrapper{
         width: 100%;        
         display : flex;
@@ -47,10 +43,7 @@
     
 }
 
-@media(min-width:481px) and (max-width :767px){
-    body{
-        background : blue;
-    }
+@media(min-width:481px) and (max-width :767px){   
     .Animation_card_wrapper{
         width: 100%;        
         display : flex;
@@ -93,10 +86,7 @@
     } 
 }
 
-@media(min-width:768px) and (max-width :991px){
-    body{
-        background : yellow;
-    }
+@media(min-width:768px) and (max-width :991px){   
     .Animation_card_wrapper{
         width: 100%;        
         display : flex;
@@ -184,15 +174,42 @@
         top : 0;
     } 
 }
-@media(min-width:1200px) and (max-width:1919px){
-    body{
-        background : gray;
+@media(min-width:1200px) and (max-width:1919px){   
+    .card{
+        width : 200px;
+        height : 300px;
+        border-radius : 5px;
+        border : 1px solid black;
+        box-shadow : 5px 5px 5px 1px gray;
+        overflow : hidden;
+        position : relative;
+    }
+    .card_img img{
+        width : 200px;
+        height : 300px;
+    }
+    .card_fotter{
+        width : 100%;
+        height : 100%;
+        top : 0;
+        right : 0;
+        position : absolute;
+        background-color:green;
+        top : 80%;
+        transition : 1s;
+    }
+    .card:hover .card_fotter{
+    cursor : pointer;
+    top : 0;
+    } 
+
+    .Animation_card_wrapper{
+        display : flex;
+        flex-direction:  row;
+        justify-content: space-around;
     }
 }
-@media(min-width:1920px){
-    body{
-        background : #03f4a4;
-    }
+@media(min-width:1920px){    
     .card{
         width : 200px;
         height : 300px;

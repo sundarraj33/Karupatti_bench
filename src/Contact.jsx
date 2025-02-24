@@ -1,3 +1,4 @@
+import karupatti_bench_footer1 from "./images/karupatti_bench_footer1.jpg";
 const Contact = ()=>{
     return(
         <>
@@ -43,7 +44,9 @@ const Contact = ()=>{
                 </div>
                 </div>
             </div>
-
+            <div className="contact_footer_image">
+                <img src={karupatti_bench_footer1}></img>
+            </div>
         </div>
         
         </>
