@@ -434,5 +434,189 @@ body{
     
     /*----------------------------- Animation Card ---------------------------------------- */
 
+
+     /* ---------------------   Mobile and Rotate Device -------------------------------------- */
+
+@media(max-width:480px) and (max-width :767px){
+    .ullist{
+        width: 100%;
+        height: 50vh;
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        /* alig */
+       }
+       ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 10px;
+        /* background-color: #1ce53a; */
+       }
+       ul li{
+        list-style: none;
+        padding: 2px;
+       } 
+       ul li:hover{
+        cursor: pointer;
+       }   
+       ul img{
+        height: 100px;
+        width: 300px;
+        background-color: red;
+       }
+       .footer-container{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(5, 0, 83);
+        color: white;
+       }
+}
+
+/* ---------------------   Mobile and Rotate Device Media Query End -------------------------------------- */
+
+
+
+
+
+/* ---------------------   Taplat Media Query Start  -------------------------------------- */
+@media(min-width:768px) and (max-width :991px){
+    .ullist{
+        width: 100%;
+        height: 50vh;
+        background-color: red;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       }
+       ul li{
+        list-style: none;
+        padding: 2px;
+       } 
+       ul li:hover{
+        cursor: pointer;
+       }   
+       ul img{
+        height: 100px;
+        width: 300px;
+        background-color: red;
+       }
+       .footer-container{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(5, 0, 83);
+        color: white;
+       }
+}
+/* ---------------------   Taplat Media Query End   -------------------------------------- */
+
+
+
+
+
+/* ---------------------   Laptop Query Start  -------------------------------------- */
+
+@media(min-width:992px) and (max-width:1199px){
+   .ullist{
+    width: 100%;
+    height: 50vh;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+   ul li{
+    list-style: none;
+    padding: 2px;
+   } 
+   ul li:hover{
+    cursor: pointer;
+   }   
+   ul img{
+    height: 100px;
+    width: 300px;
+    background-color: red;
+   }
+   .footer-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(5, 0, 83);
+    color: white;
+   }
+}
+
+/* ---------------------   Laptop Query End -------------------------------------- */
+
+
+
+
+/* ---------------------   Computer Query Start  -------------------------------------- */
+
+@media(min-width:1200px) and (max-width:1919px){
+    .ullist{
+        width: 100%;
+        height: 50vh;
+        background-color: red;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       }
+       ul li{
+        list-style: none;
+        padding: 2px;
+       } 
+       ul li:hover{
+        cursor: pointer;
+       }   
+       ul img{
+        height: 100px;
+        width: 300px;
+        background-color: red;
+       }
+       .footer-container{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(5, 0, 83);
+        color: white;
+       }
+}
+
+/* ---------------------    Computer Query End  -------------------------------------- */
+
+
+
+
+
+/* ---------------------   Big Screen Query Start  -------------------------------------- */
+@media(min-width:1920px){
+    .ullist{
+        width: 100%;
+        height: 50vh;
+        background-color: red;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       }
+       ul li{
+        list-style: none;
+        padding: 2px;
+       } 
+       ul li:hover{
+        cursor: pointer;
+       }   
+       ul img{
+        height: 100px;
+        width: 300px;
+        background-color: red;
+       }
+       .footer-container{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(5, 0, 83);
+        color: white;
+       }
+}
+/* ---------------------   Big Screen Query End  -------------------------------------- */
     
     

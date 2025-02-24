@@ -6,6 +6,7 @@ import Main_image from './Main_image'
 import Navbar1 from './Navbar1'
 import Why from './Why'
 import Contact from './Contact'
+import Footer from './Footer'
 
 function App() {  
   return (
@@ -18,6 +19,7 @@ function App() {
       <Feedback />
       <Animation_card />
       <Contact />
+      <Footer />
     </>
   )
 }
