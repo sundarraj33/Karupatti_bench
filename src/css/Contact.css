@@ -1,0 +1,302 @@
+/* ---------------------   Mobile and Rotate Device -------------------------------------- */
+
+@media(max-width:480px) and (max-width :767px){
+    body{
+        background : red;
+    }
+    .contact_container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+    }
+    .contact1{
+        width:  50%;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        margin: 10px;
+        padding: 10px;
+    }
+    .contact2{
+        width: 100%;
+        border: 1px solid black;
+        box-shadow: 1px 1px 1px 1px gray;
+        display: flex;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact_field{
+        margin: 5px 0 5px 0 ;
+        /* padding: 10px; */
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_field label{
+        color : red;  
+        padding: 5px;  
+        font-weight: 700;
+    }
+    .contact_field label::after{
+        content: "*";
+        padding: 3px;
+        color: red;
+    }
+    .contact_field input{
+        padding: 10px;
+        outline: 0;
+    }
+    .contact2 button{
+        padding: 10px;
+        /* margin: 5px; */
+        outline: 0px;
+        background-color: red;
+        color: white
+    }
+}
+
+/* ---------------------   Mobile and Rotate Device Media Query End -------------------------------------- */
+
+
+
+
+
+/* ---------------------   Taplat Media Query Start  -------------------------------------- */
+@media(min-width:768px) and (max-width :991px){
+    .contact_container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+    }
+    .contact1{
+        width:  50%;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        margin: 10px;
+        padding: 10px;
+    }
+    .contact2{
+        width: 50%;
+        border: 1px solid black;
+        box-shadow: 1px 1px 1px 1px gray;
+        display: flex;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact_field{
+        margin: 5px 0 5px 0 ;
+        /* padding: 10px; */
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_field label{
+        color : red;  
+        padding: 5px;  
+        font-weight: 700;
+    }
+    .contact_field label::after{
+        content: "*";
+        padding: 3px;
+        color: red;
+    }
+    .contact_field input{
+        padding: 10px;
+        outline: 0;
+    }
+    .contact2 button{
+        padding: 10px;
+        /* margin: 5px; */
+        outline: 0px;
+        background-color: red;
+        color: white
+    }
+}
+/* ---------------------   Taplat Media Query End   -------------------------------------- */
+
+
+
+
+
+/* ---------------------   Laptop Query Start  -------------------------------------- */
+
+@media(min-width:992px) and (max-width:1199px){    
+    .contact_container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .contact1{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
+    .contact2{
+        width: 50%;
+        border: 1px solid black;
+        box-shadow: 1px 1px 1px 1px gray;
+        display: flex;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 10px;
+        flex-direction: column;
+    }
+    .contact_field{
+        margin: 5px 0 5px 0 ;
+        /* padding: 10px; */
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_field label{
+        color : red;  
+        padding: 5px;  
+        font-weight: 700;
+    }
+    .contact_field label::after{
+        content: "*";
+        padding: 3px;
+        color: red;
+    }
+    .contact_field input{
+        padding: 10px;
+        outline: 0;
+    }
+    .contact2 button{
+        padding: 10px;
+        /* margin: 5px; */
+        outline: 0px;
+        background-color: red;
+        color: white
+    }
+}
+
+/* ---------------------   Laptop Query End -------------------------------------- */
+
+
+
+
+/* ---------------------   Computer Query Start  -------------------------------------- */
+
+@media(min-width:1200px) and (max-width:1919px){
+    .contact_container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .contact1{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
+    .contact2{
+        width: 50%;
+        border: 1px solid black;
+        box-shadow: 1px 1px 1px 1px gray;
+        display: flex;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 10px;
+        flex-direction: column;
+    }
+    .contact_field{
+        margin: 5px 0 5px 0 ;
+        /* padding: 10px; */
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_field label{
+        color : red;  
+        padding: 5px;  
+        font-weight: 700;
+    }
+    .contact_field label::after{
+        content: "*";
+        padding: 3px;
+        color: red;
+    }
+    .contact_field input{
+        padding: 10px;
+        outline: 0;
+    }
+    .contact2 button{
+        padding: 10px;
+        /* margin: 5px; */
+        outline: 0px;
+        background-color: red;
+        color: white
+    }
+}
+
+/* ---------------------    Computer Query End  -------------------------------------- */
+
+
+
+
+
+/* ---------------------   Big Screen Query Start  -------------------------------------- */
+@media(min-width:1920px){
+    .contact_container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .contact1{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
+    .contact2{
+        width: 50%;
+        border: 1px solid black;
+        box-shadow: 1px 1px 1px 1px gray;
+        display: flex;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 10px;
+        flex-direction: column;
+    }
+    .contact_field{
+        margin: 5px 0 5px 0 ;
+        /* padding: 10px; */
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_field label{
+        color : red;  
+        padding: 5px;  
+        font-weight: 700;
+    }
+    .contact_field label::after{
+        content: "*";
+        padding: 3px;
+        color: red;
+    }
+    .contact_field input{
+        padding: 10px;
+        outline: 0;
+    }
+    .contact2 button{
+        padding: 10px;
+        /* margin: 5px; */
+        outline: 0px;
+        background-color: red;
+        color: white
+    }
+}
+/* ---------------------   Big Screen Query End  -------------------------------------- */
